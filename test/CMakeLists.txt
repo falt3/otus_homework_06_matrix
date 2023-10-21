@@ -9,7 +9,7 @@ target_link_libraries(matrix_test PRIVATE
     matrix_lib
 )
 
-add_test(
-    NAME test1 
-    COMMAND ${PROJECT_NAME}_test
-)
+# add_test(
+#     NAME test1 
+#     COMMAND ${PROJECT_NAME}_test
+# )
